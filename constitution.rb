@@ -1,17 +1,16 @@
 class Constitution < Formula
   desc "A tool to declaratively manage your system"
   homepage ""
-  url "https://codeberg.org/StikyPiston/Constitution/archive/231025b.zip"
-  sha256 "13d5bedc422c250fb35e28a76ac61b24d98337d828197ee39f82313490fca4df"
-  version "231025b"
+  url "https://codeberg.org/StikyPiston/Constitution/archive/231025c.zip"
+  sha256 "3c71fe4f60c68421cd80b618880e8f2ce7b41b41ae424534f826a4e765a72b3f"
+  version "231025c"
   license "MIT"
   
   depends_on "ruby"
 
   def install
     system "gem install toml-rb"
-    system "wget -P ~/.local/bin https://codeberg.org/alternateved/dotfiles/raw/branch/main/scripts/.scripts/copr"
-    bin.install "~/.local/bin/copr" "infrared-copr"
+    bin.install "infrared-copr"
     bin.install "constitution"
   end
 
