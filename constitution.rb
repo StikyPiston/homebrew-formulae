@@ -9,7 +9,9 @@ class Constitution < Formula
 
   def install
     system "gem install toml-rb"
-    bin.install "constitution"
+    system "wget" "-P" "~/.local/bin" "https://codeberg.org/alternateved/dotfiles/raw/branch/main/scripts/.scripts/copr"
+    bin.install "~/.local/bin/copr" "infrared-copr"
+    bin.install "constitution",
   end
 
   test do
