@@ -3,6 +3,7 @@ class Constitution < Formula
   homepage ""
   url "https://codeberg.org/StikyPiston/Constitution/archive/231025b.zip"
   sha256 "13d5bedc422c250fb35e28a76ac61b24d98337d828197ee39f82313490fca4df"
+  version "231025b"
   license "MIT"
   
   depends_on "ruby"
