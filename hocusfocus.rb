@@ -1,4 +1,4 @@
-class Constitution < Formula
+class Hocusfocus < Formula
   desc "A simple productivity-tracking tool"
   homepage ""
   url "https://codeberg.org/StikyPiston/hocusfocus/archive/251025.zip"
