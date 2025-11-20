@@ -1,9 +1,9 @@
 class Dotkeeper < Formula
   desc "A dotfile management/symlink farm tool. Successor to rancher."
   homepage ""
-  url "https://codeberg.org/StikyPiston/dotkeeper/archive/201125b.zip"
-  sha256 "db5fd57ea754c1d6a6d1937c85356fa9ff515642ad9351dc16b133d28fd071ab"
-  version "201125b"
+  url "https://codeberg.org/StikyPiston/dotkeeper/archive/201125c.zip"
+  sha256 "c92ffed5ddb9f12ccd2b4ea6380eb86090c96b7125f07db871c6db5f189c9709"
+  version "201125c"
   license "MIT"
   
   depends_on "swift" => :build
